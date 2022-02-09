@@ -90,21 +90,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tree type"
+            android:text="Tree type: Neem"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tree Location"
+            android:text="Tree Location: Ticknock Forest"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Customers Name"
+            android:text="Customers Name: Aarushi"
             android:textColor="@color/black"
             android:textSize="20dp" />
 

@@ -46,6 +46,15 @@ public class HomeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        RelativeLayout i_will_plant = view.findViewById(R.id.i_will_plant);
+        i_will_plant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), FindMapsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void initPlantData() {

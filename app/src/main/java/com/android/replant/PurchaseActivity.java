@@ -46,8 +46,7 @@ public class PurchaseActivity extends AppCompatActivity {
         // Get the location of tree selected from MapsActivity
         Intent i = getIntent();
         treeLocation = i.getStringExtra("treeLocation");
-        treeLocation_TV.setText("Tree location: ");
-        treeType_TV.setText("Tree Type: ");
+        treeLocation_TV.setText("Tree location: Ticknock Forest");
 
         Button button = findViewById(R.id.buy);
         button.setOnClickListener(new View.OnClickListener() {

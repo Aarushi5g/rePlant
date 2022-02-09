@@ -17,15 +17,17 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.android.replant.SignupActivity"/>
+        <activity android:name="com.android.replant.MainActivity"/>
         <activity android:name="com.android.replant.LoginActivity"/>
         <activity android:name=".MapsActivity"/>
         <activity android:name=".CheckoutActivity"/>
         <activity android:name=".PurchaseActivity"/>
         <activity android:name=".PaymentConfirmationActivity"/>
+        <activity android:name=".ConfirmationActivity"/>
+        <activity android:name=".FindMapsActivity"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".SignupActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>

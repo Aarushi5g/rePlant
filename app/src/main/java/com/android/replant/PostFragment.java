@@ -13,4 +13,6 @@ public class PostFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_post, container, false);
     }
+
+    //TODO: post will be added to database and shown to other planters
 }
